@@ -8,7 +8,7 @@ public static class Selenium
 {
     static void Main() 
     {
-
+        // chrome driver service can hide prompts
         using (IWebDriver driver = new ChromeDriver(".\\"))
         {
             string url = @"https://libraries.tusd.net/";
